@@ -14,7 +14,7 @@ export default class WaitFor extends React.Component {
     loading: 'Loading...'
   }
 
-  state = {ready: false}
+  state = {ready: typeof window === 'undefined'}
 
   constructor (props) {
     super(props)
