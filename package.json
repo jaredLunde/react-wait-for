@@ -1,6 +1,6 @@
 {
   "name": "react-wait-for",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Waits for a promise to resolve or image to load before rendering and optionally shows loading component.",
   "main": "cjs/index.js",
   "module": "es/index.js",
