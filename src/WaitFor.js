@@ -11,7 +11,7 @@ export default class WaitFor extends React.Component {
   }
 
   static defaultProps = {
-    loading: 'Loading...'
+    loading: null
   }
 
   state = {ready: typeof window === 'undefined'}
